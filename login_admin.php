@@ -62,7 +62,7 @@ require_once (__DIR__) . '/modules/product/get_product_list.php';
                                 <div class="row justify-content-center">
                                     <div class="col-lg-3">
                                         <div class="form-group is-invalid">
-                                            <input type="email" class="form-control <?php echo (!empty($email_err)) ? 'is-invalid' : ''; ?>" name="email" id="email" placeholder="Your email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>" required>
+                                            <input type="email" class="form-control <?php echo (!empty($email_err)) ? 'is-invalid' : ''; ?>" name="email" id="email" placeholder="Admin username" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>" required>
                                             <div class="invalid-feedback password_err"><?php echo $email_err; ?></div>
                                         </div>                   
                                     </div>
